@@ -83,3 +83,25 @@ export default () => {
   });
 };
 ```
+
+## Experience
+### Mind Games
+* *Link:* [https://github.com/Mormur/frontend-project-lvl1]()
+* *Description:* five math console games with responding to user input.
+* *Technologies:* JavaScript (ES6), npm, ESLint (airbnb), Node.js, Git, GitHub, CodeClimate, Travis CI.
+
+### Comparator
+* *Link:* [https://github.com/Mormur/frontend-project-lvl2]()
+* *Description:* the semantic JSON, YML, INI compare tool.
+* *Technologies:* JavaScript (ES6), npm, ESLint (airbnb), Node.js, Git, GitHub, GitHub Actions (CI), CodeClimate, Jest.
+
+## Courses
+* **Hexlet** Course "Front-end Developer" (in progress)
+* **RS Schools** Course "JavaScript/Front-end" (in progress)
+
+## Languages
+* Russian - *Native*
+* English - *Upper-Intermediate*
+* French - *Pre-Intermediate*
+* Ukrainian - *Basic*
+* Dutch - *Basic*
