@@ -9,7 +9,7 @@
 * **GitHub:** [https://github.com/Mormur]()
 
 ## About Me
-Self-motivated and creative, with good communication skills I'm looking for a  Junior Frontend Developer position or a paid remote intership. I will be happy to continue expanding my JavaScript knowelege and skills by joining a team with a strong culture of code rewiev.
+Self-motivated and creative, having good communication skills I'm looking for a  Junior Frontend Developer position or a paid remote intership. After 7 years as a mediator with clients around the world, I want to start developing web apps that will be useful for users around the world. I will be happy to continue expanding my JavaScript knowelege and skills by joining a team with a strong culture of code rewiev.
 
 ## Skills
 * Javascript ES6+
@@ -95,9 +95,18 @@ export default () => {
 * *Description:* the semantic JSON, YML, INI compare tool.
 * *Technologies:* JavaScript (ES6), npm, ESLint (airbnb), Node.js, Git, GitHub, GitHub Actions (CI), CodeClimate, Jest.
 
+## Education
+**Voronezh State University**  
+Law Faculty  
+*Years:* 2011-2015  
+*Specialization:* International Law, Bachelor's degree
+
 ## Courses
 * **Hexlet** Course "Front-end Developer" (in progress)
 * **RS Schools** Course "JavaScript/Front-end" (in progress)
+* **HTML Academy** Course "Front-end Developer" (in progress)
+
+...and other wonderful sources: CS50 lectures, Udemy, Well Paid Geek JS course, learnjavascript.ru, Free Code Camp, Codewars etc.
 
 ## Languages
 * Russian - *Native*
