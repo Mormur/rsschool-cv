@@ -68,6 +68,10 @@ figure {
     text-align: center;
 }
 
+code {
+    font-size: 14px;
+}
+
 .footer-items {
     display: flex;
     justify-content: space-between;
