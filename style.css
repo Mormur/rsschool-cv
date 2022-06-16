@@ -34,8 +34,11 @@ body {
   }
   
 .section {
-    width: 50%;
-    
+    width: 50%;    
+}
+
+.section-large {
+    width: 100%;
 }
 
 .section-title {
@@ -59,7 +62,6 @@ body {
 a {
     color: #B22222;
     text-decoration: none;
-
 }
 
 a:hover {
