@@ -45,6 +45,9 @@ body {
     text-align: center;
     letter-spacing: 5px;
     color: #8B0000;
+    background: #F5F5DC;
+    padding: 5px;
+    margin: 5px;
 }
 
 .additional-title {
