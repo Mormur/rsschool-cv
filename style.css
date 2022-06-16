@@ -71,6 +71,11 @@ figure {
     text-align: center;
 }
 
+p {
+    text-align: justify;
+    margin: auto 10px;
+}
+
 code {
     font-size: 14px;
 }
