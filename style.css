@@ -2,6 +2,31 @@ html {
     scroll-behavior: smooth; 
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 50px;    
+}
+
+.header-container {
+    position: relative;
+    
+}
+
+.menu-icon {
+    display: none;
+}
+
 .nav-list {
     display: flex;
     justify-content: space-between;
@@ -13,19 +38,6 @@ html {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Mulish', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.container {
-    margin: 0 50px;    
 }
 
 .main-container {
@@ -75,11 +87,29 @@ figure {
 
 p {
     text-align: justify;
-    margin: auto 10px;
+    margin: 20px 10px;
 }
 
-code {
-    font-size: 14px;
+#btnCodeSpoiler {
+    margin: 10px auto;
+    display: block;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color:#8B0000;
+    background-color:#F5F5DC;
+    border-color: #8B0000;
+    border-width: 1px;  
+}
+
+.code {
+    display: none;
+    font-size: 12px;
+}
+
+.shown {
+    display: inline;
+    transition: .3s ease all;
 }
 
 .footer-items {
@@ -89,9 +119,98 @@ code {
     list-style: none;
 }
 
+@media (max-width: 1100px) {
+    
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        margin: 0 25px;    
+    }
+
+    .nav-list {
+        padding: 0 20px;
+    }
+
+    .nav-link {
+        padding: 0 15px;
+    }
+
+    #github-icon {
+        width: 50px;
+    }
+
+    #rsschool-icon {
+        height: 40px;
+    }
+    
+}
+
 @media (max-width: 768px) {
     .section {
       width: 100%;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        user-select: none;
+        z-index: 2;
+      }
+      
+      .line {
+        width: 80%;
+        height: 2px;
+        background: #8B0000;
+        margin: 3px 0;
+        z-index: 15;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .hamburger.open .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+      
+      .hamburger.open .line2 {
+        opacity: 0;
+      }
+      
+      .hamburger.open .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+
+    .nav {
+        position: relative;
+    }
+
+    .nav-list {
+        width: 120px;
+        height: 400px;
+        background-color:#F5F5DC;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10;
+        left: -238px;
+        margin: 45px 5px;
+    }
+
+    .open {
+        left: 0;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 404px) {
+    
+    .nav-list {
+        margin: 70px 5px;
     }
 }
 
